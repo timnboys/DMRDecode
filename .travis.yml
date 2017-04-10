@@ -11,4 +11,11 @@
   "group": "stable",
   "dist": "precise",
   "os": "linux"
-}
+},
+deploy:
+  provider: releases
+  api_key: "faef2a231ac411129bc67b095b4f4eade502b976"
+  file: "dmrdecode.zip"
+  skip_cleanup: true
+  on:
+    tags: true
