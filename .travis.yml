@@ -1,6 +1,14 @@
-language: java
-sudo: false
-addons:
-  apt:
-    packages:
-      - oracle-java8-installer
+{
+  "language": "java",
+  "sudo": false,
+  "addons": {
+    "apt": {
+      "packages": [
+        "oracle-java8-installer"
+      ]
+    }
+  },
+  "group": "stable",
+  "dist": "precise",
+  "os": "linux"
+}
